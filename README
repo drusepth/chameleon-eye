@@ -1,0 +1,16 @@
+Just host wgscraper.php locally and hit it with a ?src= param specifying
+a URL to an image:
+
+    http://localhost/wgscraper.php?src=www.somesite.com/path/to/your/file
+
+
+It'll show you your image and print some basic color analysis like:
+
+    Width: 1920px
+    Height: 1200px
+    [Mostly] red pixels: 164 (10368390 combined value in all pixels)
+    [Mostly] green pixels: 0 (159882217 combined value in all pixels)
+    [Mostly] blue pixels: 2269158 (466221921 combined value in all pixels)
+    [Pure] black pixels: 0 (0 combined value in all pixels)
+    [Pure] white pixels: 6857 (1748535 combined value in all pixels)
+    Dominant color: Blue
