@@ -1,7 +1,7 @@
 Just host wgscraper.php locally and hit it with a ?src= param specifying
 a URL to an image:
 
-    http://localhost/wgscraper.php?src=www.somesite.com/path/to/your/file
+    http://localhost/wgscraper.php?src=www.somesite.com/path/to/your/image.png
 
 
 It'll show you your image and print some basic color analysis like:
